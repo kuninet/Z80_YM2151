@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name YM2151-rescue)(type Legacy)(uri ${KIPRJMOD}/YM2151-rescue.lib)(options "")(descr ""))
+  (lib (name YAMAHA)(type Legacy)(uri ${KIPRJMOD}/YAMAHA.lib)(options "")(descr ""))
+  (lib (name oscillator)(type Legacy)(uri ${KIPRJMOD}/oscillator.lib)(options "")(descr ""))
+)
