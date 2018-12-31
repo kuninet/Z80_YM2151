@@ -12,7 +12,8 @@
 
 ## 部品表
 
-★作成中
+- 部品表は以下にあります。
+  - [https://github.com/kuninet/Z80_YM2151/blob/master/KiCAD/YM2151.ods](https://github.com/kuninet/Z80_YM2151/blob/master/KiCAD/YM2151.ods)
 
 ## 注意点
 
