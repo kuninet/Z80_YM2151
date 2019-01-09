@@ -15,6 +15,16 @@
 - 部品表は以下にあります。
   - [https://github.com/kuninet/Z80_YM2151/blob/master/KiCAD/YM2151.ods](https://github.com/kuninet/Z80_YM2151/blob/master/KiCAD/YM2151.ods)
 
+## 演奏プログラム&サンプルデータ
+
+- Z80用演奏プログラムとサンプルデータはsample_musicディレクトリにあります。
+  - サンプル音楽は参考リンクの音楽データをもとに作成させていただきました。
+- 起動方法
+  1. sample_music/hexFilesの以下のインテルHex形式ファイルを機械語モニタ等でロード
+    - KZ80_YM2151.hex  (8000h番地〜)
+    - sample_m.asm    (9000h番地〜)
+  2. 8000番地から実行してください。
+
 ## 注意点
 
 - 接続方法が複数あり、ジャンパ設定が複雑です。[wiki](https://github.com/kuninet/Z80_YM2151/wiki)をご覧ください。
@@ -22,3 +32,7 @@
 ## ライセンス
 
 - 本リポジトリのデータは MIT License のもとで公開します。
+
+## 参考リンク
+- github h1romas4/arduino-vgmplayer
+  - https://github.com/h1romas4/arduino-vgmplayer
