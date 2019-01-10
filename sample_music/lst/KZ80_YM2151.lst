@@ -1,4 +1,4 @@
- AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 1 - 2019/01/09 20時08分28秒
+ AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 1 - 2019/1/9 23時41時10
 
 
        1/       0 :                     ;
@@ -8,118 +8,118 @@
        5/       0 : =40H                OPM_ADDR	EQU	040H
        6/       0 : =41H                OPM_DATA	EQU	041H
        7/       0 :                     ;
-       8/    8000 :                     	ORG	8000H
-       9/    8000 :                     ;
-      10/    8000 : C3 03 80            	JP	MAIN	
-      11/    8003 :                     ;
-      12/    8003 :                     MAIN:
-      13/    8003 : CD 07 80            	CALL	MAIN1
-      14/    8006 :                     ;
-      15/    8006 : C9                  	RET	; PGM END
-      16/    8007 :                     ;
-      17/    8007 :                     MAIN1:
-      18/    8007 : 21 00 90            	LD	HL,MUSIC
-      19/    800A :                     LOOP:
-      20/    800A : 7E                  	LD	A,(HL)	; GET COMMAND
-      21/    800B : FE 54               	CP	054H
-      22/    800D : CA 36 80            	JP	Z,PLAY
-      23/    8010 : FE 61               	CP	061H
-      24/    8012 : CA 50 80            	JP	Z,WAIT1
-      25/    8015 : FE 62               	CP	062H
-      26/    8017 : CA 5A 80            	JP	Z,WAIT2
-      27/    801A : FE 63               	CP	063H
-      28/    801C : CA 63 80            	JP	Z,WAIT3
-      29/    801F : FE 64               	CP	064H
-      30/    8021 : CA 63 80            	JP	Z,WAIT3
-      31/    8024 : FE 66               	CP	066H
-      32/    8026 : CA 35 80            	JP	Z,END_RTN
-      33/    8029 :                     ;
-      34/    8029 : FE 70               	CP	70H
-      35/    802B : CA 71 80            	JP	Z,WAIT4
-      36/    802E : C2 6C 80            	JP	NZ,CHK_WAIT
-      37/    8031 :                     NEXT:
-      38/    8031 : 23                  	INC	HL
-      39/    8032 : C3 0A 80            	JP	LOOP
-      40/    8035 :                     ;
-      41/    8035 :                     END_RTN:
-      42/    8035 : C9                  	RET	; GOTO MAIN	
-      43/    8036 :                     ;
-      44/    8036 :                     PLAY:
-      45/    8036 : 23                  	INC 	HL
-      46/    8037 : 56                  	LD 	D,(HL)
-      47/    8038 : 23                  	INC 	HL
-      48/    8039 : 5E                  	LD 	E,(HL)
-      49/    803A :                     WRITEOPN:
-      50/    803A :                     ; STATUS CHECK WAIT
-      51/    803A : DB 41               	IN  A,(OPM_DATA)
-      52/    803C : DD 77 00                LD	(IX+0),A
-      53/    803F : DD 23               	INC  IX
-      54/    8041 : 07                      RLCA
-      55/    8042 : 38 F6               	JR      C,WRITEOPN
-      56/    8044 :                     ; REG OUT
-      57/    8044 : 7A                  	LD      A,D
-      58/    8045 : D3 40               	OUT     (OPM_ADDR),A
-      59/    8047 : DD 7E 00            	LD      A,(IX+0)        ;DUMMY
-      60/    804A :                     ; DATA OUT
- AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 2 - 2019/01/09 20時08分28秒
+       8/    8100 :                     	ORG	8100H
+       9/    8100 :                     ;
+      10/    8100 : C3 03 81            	JP	MAIN	
+      11/    8103 :                     ;
+      12/    8103 :                     MAIN:
+      13/    8103 : CD 07 81            	CALL	MAIN1
+      14/    8106 :                     ;
+      15/    8106 : C9                  	RET	; PGM END
+      16/    8107 :                     ;
+      17/    8107 :                     MAIN1:
+      18/    8107 : 21 00 90            	LD	HL,MUSIC
+      19/    810A :                     LOOP:
+      20/    810A : 7E                  	LD	A,(HL)	; GET COMMAND
+      21/    810B : FE 54               	CP	054H
+      22/    810D : CA 36 81            	JP	Z,PLAY
+      23/    8110 : FE 61               	CP	061H
+      24/    8112 : CA 50 81            	JP	Z,WAIT1
+      25/    8115 : FE 62               	CP	062H
+      26/    8117 : CA 5A 81            	JP	Z,WAIT2
+      27/    811A : FE 63               	CP	063H
+      28/    811C : CA 63 81            	JP	Z,WAIT3
+      29/    811F : FE 64               	CP	064H
+      30/    8121 : CA 63 81            	JP	Z,WAIT3
+      31/    8124 : FE 66               	CP	066H
+      32/    8126 : CA 35 81            	JP	Z,END_RTN
+      33/    8129 :                     ;
+      34/    8129 : FE 70               	CP	70H
+      35/    812B : CA 71 81            	JP	Z,WAIT4
+      36/    812E : C2 6C 81            	JP	NZ,CHK_WAIT
+      37/    8131 :                     NEXT:
+      38/    8131 : 23                  	INC	HL
+      39/    8132 : C3 0A 81            	JP	LOOP
+      40/    8135 :                     ;
+      41/    8135 :                     END_RTN:
+      42/    8135 : C9                  	RET	; GOTO MAIN	
+      43/    8136 :                     ;
+      44/    8136 :                     PLAY:
+      45/    8136 : 23                  	INC 	HL
+      46/    8137 : 56                  	LD 	D,(HL)
+      47/    8138 : 23                  	INC 	HL
+      48/    8139 : 5E                  	LD 	E,(HL)
+      49/    813A :                     WRITEOPN:
+      50/    813A :                     ; STATUS CHECK WAIT
+      51/    813A : DB 41               	IN  A,(OPM_DATA)
+      52/    813C : DD 77 00                LD	(IX+0),A
+      53/    813F : DD 23               	INC  IX
+      54/    8141 : 07                      RLCA
+      55/    8142 : 38 F6               	JR      C,WRITEOPN
+      56/    8144 :                     ; REG OUT
+      57/    8144 : 7A                  	LD      A,D
+      58/    8145 : D3 40               	OUT     (OPM_ADDR),A
+      59/    8147 : DD 7E 00            	LD      A,(IX+0)        ;DUMMY
+      60/    814A :                     ; DATA OUT
+ AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 2 - 2019/1/9 23時41時10
 
 
-      61/    804A : 7B                  	LD      A,E
-      62/    804B : D3 41               	OUT     (OPM_DATA),A
-      63/    804D : C3 31 80            	JP 	NEXT
-      64/    8050 :                     ;
-      65/    8050 :                     WAIT1:
-      66/    8050 : 23                  	INC	HL
-      67/    8051 : 5E                  	LD	E,(HL)
-      68/    8052 : 23                  	INC	HL
-      69/    8053 : 56                  	LD	D,(HL)
-      70/    8054 : CD 7D 80            	CALL	WAIT
-      71/    8057 : C3 31 80            	JP NEXT
-      72/    805A :                     ;
-      73/    805A :                     WAIT2:
-      74/    805A : 11 DF 02            	LD	DE,735	
-      75/    805D : CD 7D 80            	CALL	WAIT
-      76/    8060 : C3 31 80            	JP 	NEXT
-      77/    8063 :                     ;
-      78/    8063 :                     WAIT3:
-      79/    8063 : 11 72 03            	LD 	DE,882
-      80/    8066 : CD 7D 80            	CALL 	WAIT
-      81/    8069 : C3 31 80            	JP 	NEXT
-      82/    806C :                     ;
-      83/    806C :                     CHK_WAIT:
-      84/    806C : FE 80               	CP	80H
-      85/    806E : D2 31 80            	JP	NC,NEXT
-      86/    8071 :                     WAIT4:
-      87/    8071 : E6 0F               	AND	0FH
-      88/    8073 : 3C                  	INC	A
-      89/    8074 : 16 00               	LD 	D,0
-      90/    8076 : 5F                  	LD	E,A
-      91/    8077 : CD 7D 80            	CALL	WAIT
-      92/    807A : C3 31 80            	JP 	NEXT
-      93/    807D :                     ;  
-      94/    807D :                     WAIT:	
-      95/    807D : CD 86 80            	CALL	WAIT1MS	
-      96/    8080 : 1B                  	DEC	DE		
-      97/    8081 : 7A                  	LD	A,D
-      98/    8082 : B3                  	OR	E
-      99/    8083 : 20 F8               	JR	NZ,WAIT
-     100/    8085 : C9                  	RET		
-     101/    8086 :                     ; 
-     102/    8086 :                     WAIT1MS:	
-     103/    8086 : 01 03 00            	LD	BC,3		 
-     104/    8089 :                     WAIT1MSLOOP:
-     105/    8089 : 0B                  	DEC	BC
-     106/    808A : 00                  	NOP		;DUMMY (clock 4)
-     107/    808B : 00                  	NOP		;DUMMY (clock 4)
-     108/    808C : 79                  	LD	A,C
-     109/    808D : B0                  	OR	B
-     110/    808E : 20 F9               	JR	NZ,WAIT1MSLOOP
-     111/    8090 : C9                  	RET
-     112/    8091 :                     ;
-     113/    8091 :                     END
-     114/    8091 :                     
-     115/    8091 :                     
- AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 3 - 2019/01/09 20時08分28秒
+      61/    814A : 7B                  	LD      A,E
+      62/    814B : D3 41               	OUT     (OPM_DATA),A
+      63/    814D : C3 31 81            	JP 	NEXT
+      64/    8150 :                     ;
+      65/    8150 :                     WAIT1:
+      66/    8150 : 23                  	INC	HL
+      67/    8151 : 5E                  	LD	E,(HL)
+      68/    8152 : 23                  	INC	HL
+      69/    8153 : 56                  	LD	D,(HL)
+      70/    8154 : CD 7D 81            	CALL	WAIT
+      71/    8157 : C3 31 81            	JP NEXT
+      72/    815A :                     ;
+      73/    815A :                     WAIT2:
+      74/    815A : 11 DF 02            	LD	DE,735	
+      75/    815D : CD 7D 81            	CALL	WAIT
+      76/    8160 : C3 31 81            	JP 	NEXT
+      77/    8163 :                     ;
+      78/    8163 :                     WAIT3:
+      79/    8163 : 11 72 03            	LD 	DE,882
+      80/    8166 : CD 7D 81            	CALL 	WAIT
+      81/    8169 : C3 31 81            	JP 	NEXT
+      82/    816C :                     ;
+      83/    816C :                     CHK_WAIT:
+      84/    816C : FE 80               	CP	80H
+      85/    816E : D2 31 81            	JP	NC,NEXT
+      86/    8171 :                     WAIT4:
+      87/    8171 : E6 0F               	AND	0FH
+      88/    8173 : 3C                  	INC	A
+      89/    8174 : 16 00               	LD 	D,0
+      90/    8176 : 5F                  	LD	E,A
+      91/    8177 : CD 7D 81            	CALL	WAIT
+      92/    817A : C3 31 81            	JP 	NEXT
+      93/    817D :                     ;  
+      94/    817D :                     WAIT:	
+      95/    817D : CD 86 81            	CALL	WAIT1MS	
+      96/    8180 : 1B                  	DEC	DE		
+      97/    8181 : 7A                  	LD	A,D
+      98/    8182 : B3                  	OR	E
+      99/    8183 : 20 F8               	JR	NZ,WAIT
+     100/    8185 : C9                  	RET		
+     101/    8186 :                     ; 
+     102/    8186 :                     WAIT1MS:	
+     103/    8186 : 01 03 00            	LD	BC,3		 
+     104/    8189 :                     WAIT1MSLOOP:
+     105/    8189 : 0B                  	DEC	BC
+     106/    818A : 00                  	NOP		;DUMMY (clock 4)
+     107/    818B : 00                  	NOP		;DUMMY (clock 4)
+     108/    818C : 79                  	LD	A,C
+     109/    818D : B0                  	OR	B
+     110/    818E : 20 F9               	JR	NZ,WAIT1MSLOOP
+     111/    8190 : C9                  	RET
+     112/    8191 :                     ;
+     113/    8191 :                     END
+     114/    8191 :                     
+     115/    8191 :                     
+ AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 3 - 2019/1/9 23時41時10
 
 
   symbol table (* = unused):
@@ -127,33 +127,33 @@
 
 *ARCHITECTURE :    x86_64-apple-osx - | *BIGENDIAN :                      0 - |
 *BRANCHEXT :                      0 - | *CASESENSITIVE :                  0 - |
- CHK_WAIT :                    806C C | *CONSTPI :        3.141592653589793 - |
-*DATE :                  2019/01/09 - | *END :                         8091 C |
- END_RTN :                     8035 C | *FALSE :                          0 - |
+ CHK_WAIT :                    816C C | *CONSTPI :        3.141592653589793 - |
+*DATE :                    2019/1/9 - | *END :                         8191 C |
+ END_RTN :                     8135 C | *FALSE :                          0 - |
 *FULLPMMU :                       1 - | *HAS64 :                          1 - |
 *HASDSP :                         0 - | *HASFPU :                         0 - |
 *HASPMMU :                        0 - | *INEXTMODE :                      0 - |
 *INLWORDMODE :                    0 - | *INMAXMODE :                      0 - |
 *INSRCMODE :                      0 - | *INSUPMODE :                      0 - |
-*LISTON :                         1 - |  LOOP :                        800A C |
-*MACEXP :                         7 - |  MAIN :                        8003 C |
- MAIN1 :                       8007 C | *MOMCPU :                        80 - |
+*LISTON :                         1 - |  LOOP :                        810A C |
+*MACEXP :                         7 - |  MAIN :                        8103 C |
+ MAIN1 :                       8107 C | *MOMCPU :                        80 - |
 *MOMCPUNAME :                   Z80 - |  MUSIC :                       9000 - |
-*NESTMAX :                      100 - |  NEXT :                        8031 C |
+*NESTMAX :                      100 - |  NEXT :                        8131 C |
  OPM_ADDR :                      40 - |  OPM_DATA :                      41 - |
 *PACKING :                        0 - | *PADDING :                        1 - |
- PLAY :                        8036 C | *RELAXED :                        0 - |
-*TIME :                          20\-26\-10\-1208\-27\-12\-1228\-25\-89\-11 - |
+ PLAY :                        8136 C | *RELAXED :                        0 - |
+*TIME :                                      23\-26\-10\-1241\-26\-10\-1210 - |
 *TRUE :                           1 - | *VERSION :                     142F - |
- WAIT :                        807D C |  WAIT1 :                       8050 C |
- WAIT1MS :                     8086 C |  WAIT1MSLOOP :                 8089 C |
- WAIT2 :                       805A C |  WAIT3 :                       8063 C |
- WAIT4 :                       8071 C |  WRITEOPN :                    803A C |
+ WAIT :                        817D C |  WAIT1 :                       8150 C |
+ WAIT1MS :                     8186 C |  WAIT1MSLOOP :                 8189 C |
+ WAIT2 :                       815A C |  WAIT3 :                       8163 C |
+ WAIT4 :                       8171 C |  WRITEOPN :                    813A C |
 
      47 symbols
      29 unused symbols
 
- AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 4 - 2019/01/09 20時08分28秒
+ AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 4 - 2019/1/9 23時41時10
 
 
   codepages:
@@ -162,7 +162,7 @@
 STANDARD (0 changed characters)
 
 
-0.00 seconds assembly time
+0.01 seconds assembly time
 
     115 lines source file
       2 passes
