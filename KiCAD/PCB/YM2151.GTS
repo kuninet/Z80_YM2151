@@ -1,5 +1,5 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-3-g5ebb6b6)*
-G04 #@! TF.CreationDate,2018-12-13T21:08:28+09:00*
+G04 #@! TF.CreationDate,2019-01-10T21:17:46+09:00*
 G04 #@! TF.ProjectId,YM2151,594D323135312E6B696361645F706362,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*

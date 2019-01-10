@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 35)
+    (drawings 36)
     (tracks 653)
     (zones 0)
     (modules 37)
@@ -2766,6 +2766,9 @@
     )
   )
 
+  (gr_text 3.579545MHz (at 171.638 87.6) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text 3 (at 174.94 58.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -2784,7 +2787,7 @@
   (gr_text 1 (at 112.837 71.09) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Crystal\nOscillator" (at 172.4 85.822) (layer F.SilkS)
+  (gr_text "Crystal\nOscillator" (at 171.638 84.425) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text YM2151 (at 166.685 103.221) (layer F.SilkS)
