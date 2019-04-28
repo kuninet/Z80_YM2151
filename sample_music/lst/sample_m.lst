@@ -1,4 +1,4 @@
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 1 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 1 - 2019/04/28 15時23分57秒
 
 
        1/       0 :                     ; sample VGM data
@@ -61,7 +61,7 @@
                     54 85 16 54 A5 05 
                     54 C5 00 54 
       24/    9120 : E5 54 54 55 52 54       DB 0e5h, 054h, 054h, 055h, 052h, 054h, 095h, 050h, 054h, 0b5h, 008h, 054h, 0d5h, 008h, 054h, 0f5h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 2 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 2 - 2019/04/28 15時23分57秒
 
 
                     95 50 54 B5 08 54 
@@ -124,7 +124,7 @@
                     2C 54 7E 03 54 08 
                     07 54 2F 2E 
       44/    9260 : 54 37 00 54 2F 31       DB 054h, 037h, 000h, 054h, 02fh, 031h, 054h, 037h, 000h, 054h, 008h, 07fh, 061h, 099h, 040h, 054h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 3 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 3 - 2019/04/28 15時23分57秒
 
 
                     54 37 00 54 08 7F 
@@ -187,7 +187,7 @@
                     08 07 54 2F 31 54 
                     37 00 54 2F 
       64/    93A0 : 2E 54 37 00 54 08       DB 02eh, 054h, 037h, 000h, 054h, 008h, 07fh, 061h, 099h, 040h, 054h, 028h, 02dh, 054h, 030h, 000h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 4 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 4 - 2019/04/28 15時23分57秒
 
 
                     7F 61 99 40 54 28 
@@ -250,7 +250,7 @@
                     54 34 00 54 2D 2D 
                     54 35 00 54 
       84/    94E0 : 08 06 54 2E 34 54       DB 008h, 006h, 054h, 02eh, 034h, 054h, 036h, 000h, 054h, 02eh, 035h, 054h, 036h, 000h, 054h, 008h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 5 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 5 - 2019/04/28 15時23分57秒
 
 
                     36 00 54 2E 35 54 
@@ -313,7 +313,7 @@
                     07 54 2F 34 54 37 
                     00 61 99 40 
      104/    9620 : 54 28 2D 54 30 00       DB 054h, 028h, 02dh, 054h, 030h, 000h, 054h, 029h, 02dh, 054h, 031h, 000h, 054h, 02ah, 02dh, 054h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 6 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 6 - 2019/04/28 15時23分57秒
 
 
                     54 29 2D 54 31 00 
@@ -376,7 +376,7 @@
                     2F 2E 54 37 00 61 
                     99 40 54 28 
      124/    9760 : 2D 54 30 00 54 29       DB 02dh, 054h, 030h, 000h, 054h, 029h, 02dh, 054h, 031h, 000h, 054h, 02ah, 02dh, 054h, 032h, 000h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 7 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 7 - 2019/04/28 15時23分57秒
 
 
                     2D 54 31 00 54 2A 
@@ -439,7 +439,7 @@
                     54 29 2D 54 31 00 
                     54 2A 2D 54 
      144/    98A0 : 32 00 54 2B 2D 54       DB 032h, 000h, 054h, 02bh, 02dh, 054h, 033h, 000h, 054h, 02ch, 02dh, 054h, 034h, 000h, 054h, 02dh
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 8 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 8 - 2019/04/28 15時23分57秒
 
 
                     33 00 54 2C 2D 54 
@@ -502,7 +502,7 @@
                     00 54 08 7D 54 2E 
                     2E 54 36 00 
      164/    99E0 : 54 2E 2E 54 36 00       DB 054h, 02eh, 02eh, 054h, 036h, 000h, 054h, 008h, 07eh, 054h, 008h, 007h, 054h, 02fh, 031h, 054h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 9 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 9 - 2019/04/28 15時23分57秒
 
 
                     54 08 7E 54 08 07 
@@ -565,7 +565,7 @@
                     37 00 54 08 7F 61 
                     99 40 54 28 
      184/    9B20 : 2D 54 30 00 54 29       DB 02dh, 054h, 030h, 000h, 054h, 029h, 02dh, 054h, 031h, 000h, 054h, 02ah, 02dh, 054h, 032h, 000h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 10 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 10 - 2019/04/28 15時23分57秒
 
 
                     2D 54 31 00 54 2A 
@@ -628,7 +628,7 @@
                     54 33 00 54 2C 2D 
                     54 34 00 54 
      204/    9C60 : 2D 2E 54 35 00 54       DB 02dh, 02eh, 054h, 035h, 000h, 054h, 008h, 006h, 054h, 02eh, 02eh, 054h, 036h, 000h, 054h, 02eh
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 11 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 11 - 2019/04/28 15時23分57秒
 
 
                     08 06 54 2E 2E 54 
@@ -691,7 +691,7 @@
                     2D 54 32 00 54 2B 
                     2D 54 33 00 
      224/    9DA0 : 54 2C 2D 54 34 00       DB 054h, 02ch, 02dh, 054h, 034h, 000h, 054h, 008h, 005h, 054h, 02dh, 02eh, 054h, 035h, 000h, 054h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 12 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 12 - 2019/04/28 15時23分57秒
 
 
                     54 08 05 54 2D 2E 
@@ -754,7 +754,7 @@
                     37 00 61 99 40 54 
                     28 2D 54 30 
      244/    9EE0 : 00 54 29 2D 54 31       DB 000h, 054h, 029h, 02dh, 054h, 031h, 000h, 054h, 02ah, 02dh, 054h, 032h, 000h, 054h, 02bh, 02dh
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 13 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 13 - 2019/04/28 15時23分57秒
 
 
                     00 54 2A 2D 54 32 
@@ -817,7 +817,7 @@
                     54 31 00 54 2A 2D 
                     54 32 00 54 
      264/    A020 : 2B 2D 54 33 00 54       DB 02bh, 02dh, 054h, 033h, 000h, 054h, 02ch, 02dh, 054h, 034h, 000h, 054h, 008h, 005h, 054h, 02dh
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 14 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 14 - 2019/04/28 15時23分57秒
 
 
                     2C 2D 54 34 00 54 
@@ -880,7 +880,7 @@
                     2D 54 32 00 54 2B 
                     2D 54 33 00 
      284/    A160 : 54 2C 2D 54 34 00       DB 054h, 02ch, 02dh, 054h, 034h, 000h, 054h, 008h, 005h, 054h, 02dh, 034h, 054h, 035h, 000h, 054h
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 15 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 15 - 2019/04/28 15時23分57秒
 
 
                     54 08 05 54 2D 34 
@@ -941,7 +941,7 @@
                     2F 00 30 00 
      303/    A290 : 31 00 00 00 00 00       DB 031h, 000h, 000h, 000h, 000h, 000h, 000h, 000h
                     00 00 
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 16 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 16 - 2019/04/28 15時23分57秒
 
 
   symbol table (* = unused):
@@ -949,7 +949,7 @@
 
 *ARCHITECTURE :    x86_64-apple-osx - | *BIGENDIAN :                      0 - |
 *BRANCHEXT :                      0 - | *CASESENSITIVE :                  0 - |
-*CONSTPI :        3.141592653589793 - | *DATE :                   2019/4/28 - |
+*CONSTPI :        3.141592653589793 - | *DATE :                  2019/04/28 - |
 *FALSE :                          0 - | *FULLPMMU :                       1 - |
 *HAS64 :                          1 - | *HASDSP :                         0 - |
 *HASFPU :                         0 - | *HASPMMU :                        0 - |
@@ -960,13 +960,13 @@
 *MOMCPUNAME :                   Z80 - | *M_DATA :                      9000 C |
 *NESTMAX :                      100 - | *PACKING :                        0 - |
 *PADDING :                        1 - | *RELAXED :                        0 - |
-*TIME :                                       9\-26\-10\-1249\-26\-10\-1237 - |
+*TIME :                          15\-26\-10\-1223\-27\-12\-1257\-25\-89\-11 - |
 *TRUE :                           1 - | *VERSION :                     142F - |
 
      29 symbols
      29 unused symbols
 
- AS V1.42 Beta [Bld 129] - source file sample_m.asm - page 17 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file sample_m.asm - page 17 - 2019/04/28 15時23分57秒
 
 
   codepages:
@@ -975,7 +975,7 @@
 STANDARD (0 changed characters)
 
 
-0.00 seconds assembly time
+0.01 seconds assembly time
 
     303 lines source file
       1 pass

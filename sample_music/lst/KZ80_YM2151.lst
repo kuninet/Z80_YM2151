@@ -1,4 +1,4 @@
- AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 1 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 1 - 2019/04/28 15時23分57秒
 
 
        1/       0 :                     ;
@@ -61,7 +61,7 @@
       58/    8145 :                     ; DATA OUT
       59/    8145 : 7B                  	LD      A,E
       60/    8146 : D3 41               	OUT     (OPM_DATA),A
- AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 2 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 2 - 2019/04/28 15時23分57秒
 
 
       61/    8148 : C3 31 81            	JP 	NEXT
@@ -117,7 +117,7 @@
      111/    818C :                     END
      112/    818C :                     
      113/    818C :                     
- AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 3 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 3 - 2019/04/28 15時23分57秒
 
 
   symbol table (* = unused):
@@ -126,7 +126,7 @@
 *ARCHITECTURE :    x86_64-apple-osx - | *BIGENDIAN :                      0 - |
 *BRANCHEXT :                      0 - | *CASESENSITIVE :                  0 - |
  CHK_WAIT :                    8167 C | *CONSTPI :        3.141592653589793 - |
-*DATE :                   2019/4/28 - | *END :                         818C C |
+*DATE :                  2019/04/28 - | *END :                         818C C |
  END_RTN :                     8135 C | *FALSE :                          0 - |
 *FULLPMMU :                       1 - | *HAS64 :                          1 - |
 *HASDSP :                         0 - | *HASFPU :                         0 - |
@@ -141,7 +141,7 @@
  OPM_ADDR :                      40 - |  OPM_DATA :                      41 - |
 *PACKING :                        0 - | *PADDING :                        1 - |
  PLAY :                        8136 C | *RELAXED :                        0 - |
-*TIME :                                       9\-26\-10\-1249\-26\-10\-1237 - |
+*TIME :                          15\-26\-10\-1223\-27\-12\-1257\-25\-89\-11 - |
 *TRUE :                           1 - | *VERSION :                     142F - |
  WAIT :                        8178 C |  WAIT1 :                       814B C |
  WAIT1MS :                     8181 C |  WAIT1MSLOOP :                 8184 C |
@@ -151,7 +151,7 @@
      47 symbols
      29 unused symbols
 
- AS V1.42 Beta [Bld 129] - source file KZ80_YM2151.ASM - page 4 - 2019/4/28 9時49時37
+ AS V1.42 Beta [Bld 137] - source file KZ80_YM2151.ASM - page 4 - 2019/04/28 15時23分57秒
 
 
   codepages:
